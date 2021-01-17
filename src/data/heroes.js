@@ -1,4 +1,9 @@
-export const heroes = [{
+// export const heroes =
+
+// cuando es por defecto no se usa el const y en el otro archivo se quitan las  { } 
+
+// export default [{
+const heroes = [{
         id: 1,
         name: 'Batman',
         owner: 'DC'
@@ -24,3 +29,11 @@ export const heroes = [{
         owner: 'Marvel'
     },
 ];
+
+
+const owners = ['Marvel', 'DC'];
+// export default heroes;
+export {
+    heroes,
+    owners
+}
